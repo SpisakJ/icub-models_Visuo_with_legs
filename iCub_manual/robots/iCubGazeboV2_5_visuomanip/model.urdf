@@ -2746,6 +2746,12 @@
   <plugin name='controlboard_right_hand_pinky' filename='libgazebo_yarp_controlboard.so'>
     <yarpConfigurationFile>model://iCub/conf_manual/iCubGazeboV2_5_visuomanip/gazebo_icub_right_hand_pinky.ini</yarpConfigurationFile>
   </plugin>
+    <plugin name="controlboard_right_leg" filename="libgazebo_yarp_controlboard.so">
+  <yarpConfigurationFile>model://iCub/conf_manual/iCubGazeboV2_5_visuomanip/gazebo_icub_right_leg.ini</yarpConfigurationFile>
+</plugin>
+<plugin name="controlboard_left_leg" filename="libgazebo_yarp_controlboard.so">
+  <yarpConfigurationFile>model://iCub/conf_manual/iCubGazeboV2_5_visuomanip/gazebo_icub_left_leg.ini</yarpConfigurationFile>
+</plugin>
   <plugin name='mais_right_hand' filename='libgazebo_yarp_maissensor.so'>
     <yarpConfigurationFile>model://iCub/conf_manual/iCubGazeboV2_5_visuomanip/gazebo_icub_right_hand_mais.ini</yarpConfigurationFile>
   </plugin>

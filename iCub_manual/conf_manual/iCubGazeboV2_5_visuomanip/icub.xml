@@ -11,6 +11,8 @@
         <xi:include href="../../../iCub/conf/wrappers/motorControl/head-mc_wrapper.xml" />
         <xi:include href="../../../iCub/conf/wrappers/motorControl/left_arm-mc_wrapper.xml" />
         <xi:include href="../../../iCub/conf/wrappers/motorControl/right_arm-mc_wrapper.xml" />
+   	 <xi:include href="../../../iCub/conf/wrappers/motorControl/left_leg-mc_wrapper.xml" />
+    	<xi:include href="../../../iCub/conf/wrappers/motorControl/right_leg-mc_wrapper.xml" />
 
         <!-- only the torso remapper is inherited from automatically generated models -->
         <xi:include href="../../../iCub/conf/wrappers/motorControl/torso-mc_remapper.xml" />
@@ -19,6 +21,8 @@
         <xi:include href="wrappers/motorControl/head-mc_remapper.xml" />
         <xi:include href="wrappers/motorControl/left_arm-mc_remapper.xml" />
         <xi:include href="wrappers/motorControl/right_arm-mc_remapper.xml" />
+    	<xi:include href="../../../iCub/conf/wrappers/motorControl/left_leg-mc_remapper.xml" />
+    	<xi:include href="../../../iCub/conf/wrappers/motorControl/right_leg-mc_remapper.xml" />
     <!-- -->
 
     <!-- HEAD SENSORS -->
